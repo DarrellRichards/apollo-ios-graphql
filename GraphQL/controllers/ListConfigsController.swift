@@ -7,14 +7,7 @@
 
 import UIKit
 
-struct Config: Identifiable, Codable {
-    var id: String
-    var name: String
-    var enabled: Bool
-}
-
 class ListConfigController: UIViewController,UITableViewDataSource {
-//    var configsList = [ListConfigsQuery.Data.ListConfig]()
     let tableView = UITableView()
     var configs = [Config]()
     override func viewDidLoad() {
@@ -34,16 +27,6 @@ class ListConfigController: UIViewController,UITableViewDataSource {
             }
             
             self.setupTableView()
-//            switch result {
-//                case .success(let graphQLResult):
-//                    print("Success! Result: \(graphQLResult.data?.listConfigs?.resultMap)")
-////                    graphQLResult.data?.listConfigs.map({
-////                        print($0.resultMap.name)
-////                    })
-//
-//                case .failure(let error):
-//                          print("Failure! Error: \(error)")
-//                 }
             }
     }
 

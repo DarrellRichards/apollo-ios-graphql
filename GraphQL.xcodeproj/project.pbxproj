@@ -16,6 +16,7 @@
 		4A319BB52558AB7F000AEA9B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A319BB42558AB7F000AEA9B /* API.swift */; };
 		4A319BBB2558ABF0000AEA9B /* graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A319BBA2558ABF0000AEA9B /* graphql.swift */; };
 		4A319BC12558AD0E000AEA9B /* ListConfigsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A319BC02558AD0E000AEA9B /* ListConfigsController.swift */; };
+		4A319BD72558E71C000AEA9B /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A319BD62558E71C000AEA9B /* config.swift */; };
 		4A626C2825589D60001FECAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A626C2725589D60001FECAF /* AppDelegate.swift */; };
 		4A626C2A25589D60001FECAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A626C2925589D60001FECAF /* SceneDelegate.swift */; };
 		4A626C2C25589D60001FECAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A626C2B25589D60001FECAF /* ViewController.swift */; };
@@ -53,6 +54,7 @@
 		4A319BB42558AB7F000AEA9B /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		4A319BBA2558ABF0000AEA9B /* graphql.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graphql.swift; sourceTree = "<group>"; };
 		4A319BC02558AD0E000AEA9B /* ListConfigsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListConfigsController.swift; sourceTree = "<group>"; };
+		4A319BD62558E71C000AEA9B /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
 		4A626C2425589D60001FECAF /* GraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A626C2725589D60001FECAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A626C2925589D60001FECAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,14 @@
 			path = controllers;
 			sourceTree = "<group>";
 		};
+		4A319BD52558E70D000AEA9B /* modals */ = {
+			isa = PBXGroup;
+			children = (
+				4A319BD62558E71C000AEA9B /* config.swift */,
+			);
+			path = modals;
+			sourceTree = "<group>";
+		};
 		4A626C1B25589D60001FECAF = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +164,7 @@
 		4A626C2625589D60001FECAF /* GraphQL */ = {
 			isa = PBXGroup;
 			children = (
+				4A319BD52558E70D000AEA9B /* modals */,
 				4A319BBF2558ACF2000AEA9B /* controllers */,
 				4A319BB92558ABE4000AEA9B /* services */,
 				4A626C2725589D60001FECAF /* AppDelegate.swift */,
@@ -469,6 +480,7 @@
 				4A626C2C25589D60001FECAF /* ViewController.swift in Sources */,
 				4A626C2825589D60001FECAF /* AppDelegate.swift in Sources */,
 				4A319BB52558AB7F000AEA9B /* API.swift in Sources */,
+				4A319BD72558E71C000AEA9B /* config.swift in Sources */,
 				4A626C2A25589D60001FECAF /* SceneDelegate.swift in Sources */,
 				4A319BC12558AD0E000AEA9B /* ListConfigsController.swift in Sources */,
 			);
