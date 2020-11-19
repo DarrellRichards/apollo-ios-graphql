@@ -11,4 +11,8 @@ import Apollo
 class GraphqlService {
     static let shared = GraphqlService()
     private(set) lazy var apollo = ApolloClient(url: URL(string: "http://localhost:3000")!)
+    
+    func clearCache() {
+        apollo.clearCache()
+    }
 }
